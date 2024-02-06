@@ -54,7 +54,7 @@
   bugreports:
 - summary: |
       Ошибка верстки при отображении единичного товара. 
-    environment: |
+  environment: |
       Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
     ОС Windows 10 Pro
     steps-to-reproduce: |
@@ -97,7 +97,7 @@
     
 - summary: |
       Строка поиска не выдает сообщение об отсутсвии результатов при поиске несуществующего товара
-    environment: |
+  environment: |
       Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
       ОС Windows 10 Pro
     steps-to-reproduce: |
