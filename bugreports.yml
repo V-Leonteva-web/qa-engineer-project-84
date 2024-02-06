@@ -2,8 +2,8 @@
 - summary: |
     Отсутствует иконка английского языка в выборе языковой версии сайта
   environment: |
-    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-    Windows 10 v21H2 (сборка ОС 19044.2965)
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. В шапке сайта нажать кнопку Language 
   expected-result: |
@@ -15,8 +15,8 @@
 - summary: |
     Ошибка 500 при оформлении заказа
   environment: |
-    Google Chrome 109.0.5414.141 (Официальная сборка) (64 бит) 
-    Windows 8.1 v6.3
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Добавить любой товар в корзину
     2. Перейти в корзину
@@ -31,8 +31,8 @@
 - summary: |
     Отображаются удаленные товары при обновлении корзины
   environment: |
-    Google Chrome 109.0.5414.141 (Официальная сборка) (64 бит) 
-    Windows 8.1 v6.3
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Добавить любой товар в корзину
     2. Перейти в корзину
@@ -46,8 +46,8 @@
 - summary: |
     Отсутствует мобильная версия приложения
   environment: |
-    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-    Windows 10 v21H2 (сборка ОС 19044.2965)
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Открыть DevTools
     2. Включить режим просмотра Device toolbar 
@@ -62,8 +62,8 @@
 - summary: |
     Фильтр по ценам не учитывает цену со скидкой
   environment: |
-    Google Chrome 109.0.5414.141 (Официальная сборка) (64 бит) 
-    Windows 8.1 v6.3
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Ввести в фильтр по ценам значение верхнего порога, исключающие товары, цена которых без учета скидки не попадает в диапазон
   expected-result: |
@@ -74,8 +74,8 @@
 - summary: |
     Фильтр по ценам убирает из выдачи товар, цена которого равна пороговому значению фильтра
   environment: |
-    Google Chrome 109.0.5414.141 (Официальная сборка) (64 бит) 
-    Windows 8.1 v6.3
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Ввести в фильтр по ценам значение верхнего или нижнего порога точную цену товара.
   expected-result: |
@@ -86,8 +86,8 @@
 - summary: |
     На первой странице магазина не скрыта кнопка Previous
   environment: |
-    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-    Windows 10 v21H2 (сборка ОС 19044.2965)
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Открыть главную страницу
   expected-result: |
@@ -99,8 +99,8 @@
 - summary: |
     На последней странице магазина не скрыта кнопка Next
   environment: |
-    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-    Windows 10 v21H2 (сборка ОС 19044.2965)
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Открыть главную страницу
     2. Пролистать страницы магазина до конца
@@ -113,12 +113,12 @@
 - summary: |
     У логотипа в шапке нет ссылки на главную страницу
   environment: |
-    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-    Windows 10 v21H2 (сборка ОС 19044.2965)
+    Google Chrome 121.0.6167.140 (Официальная сборка)т (64 бит)
+    ОС Windows 10 Pro
   steps-to-reproduce: |
     1. Открыть главную страницу
     2. Нажать на Hexlet Store в шапке
   expected-result: |
     Пользователь возвращается на главную страницу
   actual-result: |
-    Ничего не происходит.
+    Ничего не происходит
