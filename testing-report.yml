@@ -20,10 +20,6 @@
   status: pass
 
 - summary: |
-    Проверка поиска несуществующего товара по ключевому слову
-  status: pass
-
-- summary: |
     Проверка фильтра по цене
   status: fail
 
