@@ -52,7 +52,6 @@
   status: fail
 
   bugreports:
-  ---
 - summary: |
     Ошибка верстки при отображении единичного товара
   environment: |
