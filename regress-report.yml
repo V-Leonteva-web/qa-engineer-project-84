@@ -64,7 +64,7 @@ test-cases:
       Проверка фильтрации по бренду
     status: pass
 
-    - summary: |
+  - summary: |
       Проверка фильтрации по нескольким брендам
     status: pass
 
